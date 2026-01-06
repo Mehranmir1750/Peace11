@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peace Cricket</title>
+  <style>
+
+    body{
+        
+        background-color: #1A1F1E;
+        margin: 0;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .navbar{
+        background-color: #36454F;
+        
+        padding: 0.px 20px;
+    }
+  
+    .navbar img{
+        display: grid;
+        height: 100px;
+        width: 100px;
+        padding: 15px ;
+        
+    }
+    .navbar h1{
+        display: grid;
+        margin-top: -80px;
+        margin-left: 130px;
+        color: #FFFFFF;
+    }
+
+    .nav-links {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self:right;
+    padding: 20px;
+    padding-right: 200px;
+    margin: 0;
+    
+    list-style: none;
+    gap: 160px;
+
+    margin-top: -90px;
+    
+}
+
+.nav-links a{
+    display: grid;
+    color: black;
+    padding: 10px;
+   
+}
+
+.nav-btn{
+    padding: 4px 10px;
+    border: 1px solid #1A1F1E;
+    border-radius: 12px;
+    line-height: 1;
+
+    color: black;              /* TEXT COLOR */
+    background-color:  #C7F000; /* BACKGROUND */
+    text-decoration:none;
+}
+
+    .nav-btn:hover {
+    background-color: #EBD5AB; /* button fills */
+    color: #1A1F1E;            /* dark text */
+}
+
+
+.bg {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    -45deg,
+    #FFFFFF,
+    #1A1F1E,
+    #1A1F1E,
+    #FFFFFF
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+  z-index: -1;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+    .footer {
+        background-color: #36454F;
+        color: #ccc;
+        padding: 20px 40px;
+        margin-top: 0px;
+        
+        }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        
+        }
+
+    .footer p {
+        margin: 0;
+        font-size: 18px;
+        justify-self: center;
+        }
+
+        .batters h1{
+            color: #C7F000;
+            padding: 30px;
+        }
+
+</style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="logo.png">
+        <h1>Peace 11</h1>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-btn">Home</a></li>
+            <li><a href="players.html" class="nav-btn">Players</a></li>
+            <li><a href="performance.html" class="nav-btn">Performance</a></li>
+        </ul>
+    </div>
+
+    <div class="bg">
+
+    </div>
+
+    <div class="intro">
+        
+    </div>
+
+    <div class="batters">
+        <h1>Batters</h1>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2026 Peace 11 • Peace Ground</p>
+        </div>
+    </footer>
+
+
+    </div>
+</body>
+
+</html>
