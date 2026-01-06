@@ -85,7 +85,8 @@
   );
   background-size: 400% 400%;
   animation: gradientMove 15s ease infinite;
-  z-index: -1;
+  /* z-index: -1; */
+   z-index: 0;
 }
 
 @keyframes gradientMove {
@@ -120,6 +121,25 @@
             color: #C7F000;
             padding: 30px;
         }
+
+
+    .bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.navbar,
+.batters-section,
+.footer {
+    position: relative;
+    z-index: 2;
+}
+
+.batter-card {
+    background: #2a3439;
+    border: 2px solid rgba(199, 240, 0, 0.4);
+}
 
 </style>
 </head>
@@ -158,5 +178,6 @@
 
     </div>
 </body>
+
 
 </html>
